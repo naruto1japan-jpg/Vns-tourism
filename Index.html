@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Bihar & Varanasi - Spiritual & Natural Wonders</title>
+    <meta name="description" content="Guided, comfortable, and disturbance-free travel experiences through the spiritual and natural wonders of Bihar and Varanasi.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reset & Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Spacing */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 24px;
+            --space-6: 32px;
+            --space-7: 48px;
+            --space-8: 64px;
+
+            /* Border Radius */
+            --radius-2: 4px;
+            --radius-3: 8px;
+            --radius-4: 12px;
+            --radius-round: 9999px;
+
+            /* Shadows */
+            --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-3: 0 4px 12px rgba(0, 0, 0, 0.15);
+            --shadow-4: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+            /* Colors - Sand (Neutral) */
+            --sand-1: #fdfdfc;
+            --sand-2: #f9f9f8;
+            --sand-3: #f1f0ef;
+            --sand-4: #e9e8e6;
+            --sand-5: #e2e1de;
+            --sand-6: #dad9d6;
+            --sand-7: #cfceca;
+            --sand-8: #bcbbb5;
+            --sand-9: #8d8d86;
+            --sand-10: #82827c;
+            --sand-11: #63635e;
+            --sand-12: #21201c;
+
+            /* Colors - Amber (Accent) */
+            --amber-1: #fefdfb;
+            --amber-2: #fefbe9;
+            --amber-3: #fff7c2;
+            --amber-4: #ffee9c;
+            --amber-5: #fbe577;
+            --amber-6: #f3d768;
+            --amber-7: #e9c162;
+            --amber-8: #e2a336;
+            --amber-9: #ffc53d;
+            --amber-10: #ffba18;
+            --amber-11: #ab6400;
+            --amber-12: #4f3422;
+
+            /* Colors - Teal (Spiritual) */
+            --teal-1: #fafefd;
+            --teal-2: #f1fcf9;
+            --teal-3: #e0f8f3;
+            --teal-4: #ccf3ea;
+            --teal-5: #b8eee0;
+            --teal-6: #a1e8d5;
+            --teal-7: #83dfc6;
+            --teal-8: #53cfb0;
+            --teal-9: #12a594;
+            --teal-10: #0d9b88;
+            --teal-11: #008573;
+            --teal-12: #0d3d38;
+
+            /* Colors - Jade (Success) */
+            --jade-1: #fbfefd;
+            --jade-2: #f4fbf6;
+            --jade-3: #e6f7ed;
+            --jade-4: #d6f1e3;
+            --jade-5: #c3e9d7;
+            --jade-6: #acdec8;
+            --jade-7: #8bceb6;
+            --jade-8: #56ba9f;
+            --jade-9: #29a383;
+            --jade-10: #26997b;
+            --jade-11: #208368;
+            --jade-12: #1d3b31;
+
+            /* Colors - Tomato (Error) */
+            --tomato-1: #fffcfc;
+            --tomato-2: #fff8f7;
+            --tomato-3: #feebe7;
+            --tomato-4: #ffdcd3;
+            --tomato-5: #ffcdc2;
+            --tomato-6: #fdbdaf;
+            --tomato-7: #f5a898;
+            --tomato-8: #ec8e7b;
+            --tomato-9: #e54d2e;
+            --tomato-10: #dd4425;
+            --tomato-11: #d13415;
+            --tomato-12: #5c271f;
+
+            /* Typography */
+            --font-display: 'Playfair Display', serif;
+            --font-heading: 'Playfair Display', serif;
+            --font-body: 'Lato', sans-serif;
+            
+            /* Stats Orange Color - matching the image */
+            --stats-orange: #f97316;
+            --stats-orange-light: #fb923c;
+        }
+
+        /* Dark Mode Theme */
+        [data-theme="dark"] {
+            /* Dark Sand */
+            --sand-1: #1a1a18;
+            --sand-2: #1f1f1d;
+            --sand-3: #2a2926;
+            --sand-4: #343431;
+            --sand-5: #3d3c38;
+            --sand-6: #474642;
+            --sand-7: #55544f;
+            --sand-8: #6e6d66;
+            --sand-9: #8d8d86;
+            --sand-10: #9a9992;
+            --sand-11: #b5b4ad;
+            --sand-12: #f5f5f0;
+
+            /* Dark Amber - adjusted for dark mode */
+            --amber-1: #1f1a0d;
+            --amber-2: #2d230f;
+            --amber-3: #3d2e0f;
+            --amber-4: #4f3a12;
+            --amber-5: #644616;
+            --amber-6: #7d561a;
+            --amber-7: #a0701e;
+            --amber-8: #d49e24;
+            --amber-9: #ffc53d;
+            --amber-10: #ffd60a;
+            --amber-11: #ffdf33;
+            --amber-12: #fffad1;
+
+            /* Dark Teal */
+            --teal-1: #0d1917;
+            --teal-2: #0f221e;
+            --teal-3: #122e29;
+            --teal-4: #153d36;
+            --teal-5: #184c44;
+            --teal-6: #1b5e54;
+            --teal-7: #1f7366;
+            --teal-8: #238b7a;
+            --teal-9: #12a594;
+            --teal-10: #0eb39f;
+            --teal-11: #0cc4ad;
+            --teal-12: #e0faf5;
+
+            /* Dark Jade */
+            --jade-1: #0d1914;
+            --jade-2: #0f221a;
+            --jade-3: #122e22;
+            --jade-4: #153d2d;
+            --jade-5: #184c38;
+            --jade-6: #1b5e46;
+            --jade-7: #1f7356;
+            --jade-8: #238b68;
+            --jade-9: #29a383;
+            --jade-10: #2eb88f;
+            --jade-11: #33cc9b;
+            --jade-12: #e0faf2;
+
+            /* Dark Tomato */
+            --tomato-1: #1f0f0d;
+            --tomato-2: #2d1512;
+            --tomato-3: #3d1c17;
+            --tomato-4: #4f231c;
+            --tomato-5: #642b22;
+            --tomato-6: #7d3429;
+            --tomato-7: #a04031;
+            --tomato-8: #d44e3a;
+            --tomato-9: #e54d2e;
+            --tomato-10: #ec5f42;
+            --tomato-11: #f5775e;
+            --tomato-12: #ffeae6;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--sand-12);
+            background: var(--sand-1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: linear-gradient(to bottom, var(--sand-1), transparent);
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            background: var(--sand-1);
+            box-shadow: var(--shadow-2);
+        }
+
+        .nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: var(--space-4) var(--space-5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--teal-11);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .logo svg {
+            width: 32px;
+            height: 32px;
+            color: var(--amber-9);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: var(--space-5);
+            align-items: center;
+        }
+
+        .nav-link {
+            font-size: 1rem;
+            color: var(--sand-11);
+            text-decoration: none;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--amber-9);
+            transform: scaleX(0);
+            transition: transform 0.2s;
+        }
+
+        .nav-link:hover {
+            color: var(--teal-11);
+        }
+
+        .nav-link:hover::after {
+            transform: scaleX(1);
+        }
+
+        /* Theme Toggle Button */
+        .theme-toggle {
+            background: var(--sand-3);
+            border: 2px solid var(--sand-6);
+            border-radius: var(--radius-round);
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--amber-9);
+            transform: scale(1.1);
+            box-shadow: var(--shadow-3);
+        }
+
+        .theme-toggle svg {
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s ease;
+            position: absolute;
+        }
+
+        .theme-toggle .sun-icon {
+            color: var(--amber-9);
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        .theme-toggle .moon-icon {
+            color: var(--teal-9);
+            opacity: 0;
+            transform: rotate(-90deg) scale(0.5);
+        }
+
+        [data-theme="dark"] .theme-toggle .sun-icon {
+            opacity: 0;
+            transform: rotate(90deg) scale(0.5);
+        }
+
+        [data-theme="dark"] .theme-toggle .moon-icon {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        [data-theme="dark"] .theme-toggle {
+            background: var(--sand-3);
+            border-color: var(--sand-7);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-5);
+            background: var(--amber-9);
+            color: var(--amber-12);
+            border: none;
+            border-radius: var(--radius-3);
+            font-family: var(--font-body);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: var(--amber-10);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-2);
+        }
+
+        .btn-lg {
+            padding: var(--space-4) var(--space-6);
+            font-size: 1.125rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--teal-9), var(--teal-11));
+        }
+
+        .hero-background {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+
+        .hero-image {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+
+        .hero-image.active {
+            opacity: 0.7;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            max-width: 1200px;
+            padding: var(--space-6);
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 6vw, 4rem);
+            font-weight: 700;
+            margin: 0 0 var(--space-4) 0;
+            text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-heading);
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            font-weight: 500;
+            margin: 0 0 var(--space-6) 0;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Statistics Section */
+        .stats-section {
+            background: #0a0a0a;
+            padding: var(--space-8) var(--space-5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-8);
+            position: relative;
+        }
+
+        .stat-item {
+            text-align: center;
+            position: relative;
+        }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 8vw, 5rem);
+            font-weight: 700;
+            color: var(--stats-orange);
+            line-height: 1;
+            margin-bottom: var(--space-2);
+            text-shadow: 0 0 30px rgba(249, 115, 22, 0.3);
+        }
+
+        .stat-label {
+            font-family: var(--font-body);
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: #9ca3af;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        /* Center arrow between stats */
+        .stats-arrow {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #6b7280;
+            font-size: 2rem;
+            opacity: 0.6;
+        }
+
+        /* Background wireframe effect */
+        .stats-bg {
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(249, 115, 22, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(249, 115, 22, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        /* Wireframe SVG overlay */
+        .wireframe-overlay {
+            position: absolute;
+            inset: 0;
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                gap: var(--space-6);
+            }
+            
+            .stats-arrow {
+                display: none;
+            }
+        }
+
+        /* Sections */
+        .section {
+            padding: var(--space-8) var(--space-5);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-alt {
+            background: var(--sand-2);
+        }
+
+        .section-title {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 600;
+            text-align: center;
+            margin: 0 0 var(--space-3) 0;
+            color: var(--teal-11);
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            text-align: center;
+            margin: 0 auto var(--space-7);
+            color: var(--sand-10);
+            max-width: 800px;
+        }
+
+        /* Package Cards */
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-6);
+            margin-top: var(--space-7);
+        }
+
+        .package-card {
+            background: var(--sand-1);
+            border-radius: var(--radius-4);
+            box-shadow: var(--shadow-2);
+            overflow: hidden;
+            transition: all 0.3s;
+            border: 1px solid var(--sand-4);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .package-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-4);
+        }
+
+        .package-header {
+            background: linear-gradient(135deg, var(--teal-9), var(--teal-11));
+            color: white;
+            padding: var(--space-5);
+        }
+
+        .package-name {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0 0 var(--space-2) 0;
+        }
+
+        .package-duration {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            opacity: 0.95;
+        }
+
+        .package-content {
+            padding: var(--space-5);
+            flex: 1;
+        }
+
+        .package-section {
+            margin-bottom: var(--space-4);
+        }
+
+        .package-section-title {
+            font-weight: 600;
+            color: var(--teal-11);
+            margin-bottom: var(--space-2);
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .package-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .package-list li {
+            padding-left: var(--space-4);
+            position: relative;
+            margin-bottom: var(--space-2);
+            color: var(--sand-11);
+        }
+
+        .package-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--amber-9);
+            font-weight: bold;
+        }
+
+        .package-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-2);
+        }
+
+        .package-highlight {
+            background: var(--amber-3);
+            color: var(--amber-11);
+            padding: var(--space-1) var(--space-3);
+            border-radius: var(--radius-round);
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .package-footer {
+            padding: var(--space-5);
+            border-top: 1px solid var(--sand-4);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .package-price {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--teal-11);
+        }
+
+        .package-meals {
+            font-size: 0.875rem;
+            color: var(--sand-10);
+            margin-top: var(--space-1);
+        }
+
+        /* Steps Grid */
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-6);
+            margin-top: var(--space-7);
+        }
+
+        .step {
+            text-align: center;
+            padding: var(--space-5);
+            background: var(--sand-1);
+            border-radius: var(--radius-4);
+            box-shadow: var(--shadow-2);
+            transition: transform 0.3s;
+        }
+
+        .step:hover {
+            transform: translateY(-4px);
+        }
+
+        .step-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto var(--space-4);
+            color: var(--amber-9);
+        }
+
+        .step-title {
+            font-family: var(--font-heading);
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--teal-11);
+            margin-bottom: var(--space-2);
+        }
+
+        .step-description {
+            color: var(--sand-10);
+        }
+
+        /* Safety Grid */
+        .safety-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-5);
+            margin-top: var(--space-7);
+        }
+
+        .safety-item {
+            display: flex;
+            gap: var(--space-3);
+            padding: var(--space-4);
+            background: var(--sand-1);
+            border-radius: var(--radius-3);
+            border: 1px solid var(--sand-4);
+        }
+
+        .safety-icon {
+            width: 24px;
+            height: 24px;
+            color: var(--jade-9);
+            flex-shrink: 0;
+        }
+
+        /* Accordion */
+        .accordion {
+            max-width: 800px;
+            margin: var(--space-7) auto 0;
+        }
+
+        .accordion-item {
+            border: 1px solid var(--sand-4);
+            border-radius: var(--radius-3);
+            margin-bottom: var(--space-3);
+            overflow: hidden;
+        }
+
+        .accordion-trigger {
+            width: 100%;
+            padding: var(--space-4);
+            background: var(--sand-1);
+            border: none;
+            text-align: left;
+            font-family: var(--font-heading);
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--teal-11);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .accordion-trigger:hover {
+            background: var(--sand-2);
+        }
+
+        .accordion-content {
+            padding: 0 var(--space-4);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s, padding 0.3s;
+        }
+
+        .accordion-item.active .accordion-content {
+            padding: var(--space-4);
+            max-height: 500px;
+        }
+
+        /* Terms Sections */
+        .terms-section {
+            max-width: 1000px;
+            margin: 0 auto var(--space-7);
+            background: var(--sand-1);
+            border-radius: var(--radius-4);
+            padding: var(--space-6);
+            box-shadow: var(--shadow-2);
+            border: 1px solid var(--sand-4);
+        }
+
+        .terms-heading {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--teal-11);
+            margin-bottom: var(--space-5);
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+        }
+
+        .terms-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .terms-list li {
+            padding: var(--space-3) 0 var(--space-3) var(--space-6);
+            position: relative;
+            color: var(--sand-11);
+        }
+
+        .terms-list li::before {
+            content: '•';
+            position: absolute;
+            left: var(--space-3);
+            color: var(--amber-9);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .highlight-box {
+            background: var(--amber-3);
+            border-left: 4px solid var(--amber-9);
+            border-radius: var(--radius-3);
+            padding: var(--space-5);
+            margin: var(--space-5) 0;
+        }
+
+        .warning-box {
+            background: var(--tomato-2);
+            border: 2px solid var(--tomato-6);
+            border-radius: var(--radius-3);
+            padding: var(--space-5);
+            margin: var(--space-5) 0;
+        }
+
+        /* Contact Form */
+        .contact-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-4);
+            margin: var(--space-6) 0;
+            text-align: center;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-3);
+            font-size: 1.125rem;
+            color: var(--sand-11);
+        }
+
+        .contact-item a {
+            color: var(--teal-11);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-5);
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-4);
+        }
+
+        label {
+            font-weight: 600;
+            color: var(--sand-11);
+        }
+
+        input, textarea {
+            padding: var(--space-3);
+            border: 1px solid var(--sand-6);
+            border-radius: var(--radius-3);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            transition: border-color 0.2s;
+            background: var(--sand-1);
+            color: var(--sand-12);
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--teal-9);
+        }
+
+        .success-message {
+            background: var(--jade-3);
+            color: var(--jade-11);
+            padding: var(--space-6);
+            border-radius: var(--radius-3);
+            text-align: center;
+            border: 2px solid var(--jade-7);
+        }
+
+        .success-message h3 {
+            margin: 0 0 var(--space-3);
+            font-size: 1.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--teal-12);
+            color: var(--teal-1);
+            padding: var(--space-6) var(--space-5);
+            text-align: center;
+        }
+
+        .footer p {
+            margin: var(--space-2) 0;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .packages-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-grid, .safety-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .theme-toggle {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                z-index: 1000;
+                box-shadow: var(--shadow-4);
+            }
+        }
+
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#hero" class="logo" onclick="scrollToSection(event, 'hero')">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l3.057-3L20 7.5v12.5l-6.943 2L5 14.5z"/>
+                </svg>
+                <span>Bihar & Varanasi Tours</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link" onclick="scrollToSection(event, 'about')">About</a>
+                <a href="#packages" class="nav-link" onclick="scrollToSection(event, 'packages')">Packages</a>
+                <a href="#faq" class="nav-link" onclick="scrollToSection(event, 'faq')">FAQ</a>
+                <a href="#terms-conditions" class="nav-link" onclick="scrollToSection(event, 'terms-conditions')">Guest Policy</a>
+                <button class="btn" onclick="scrollToSection(event, 'booking')">Book Now</button>
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5" stroke-width="2"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <img src="https://img-wixmp-1dc246a0b7b546f6581a8d48.wixmp.com/projects/d6f1e99c-5358-4a89-9076-16c4c636ee0b/attachments/d88d35eb-0308-4244-835b-1247e7e404d6/unnamed.jpg/v1/fit/w_800,h_4000,q_90/unnamed.jpg" alt="Karakatgarh Waterfall, Kaimur District, Bihar" class="hero-image active">
+            <img src="https://img-wixmp-1dc246a0b7b546f6581a8d48.wixmp.com/projects/d6f1e99c-5358-4a89-9076-16c4c636ee0b/attachments/f1a29c7e-df1d-409a-9e7f-c37484c5f248/images.jpeg/v1/fit/w_800,h_4000,q_90/images.jpg" alt="Karakatgarh Waterfall Aerial View" class="hero-image">
+            <img src="https://img-wixmp-1dc246a0b7b546f6581a8d48.wixmp.com/projects/d6f1e99c-5358-4a89-9076-16c4c636ee0b/attachments/00709430-e8b4-42b7-a023-c92eabd76d34/gettyimages-2203564555-612x612.jpg/v1/fit/w_800,h_4000,q_90/gettyimages-2203564555-612x612.jpg" alt="Varanasi Ghat Illuminated at Night" class="hero-image">
+            <img src="https://img-wixmp-1dc246a0b7b546f6581a8d48.wixmp.com/projects/d6f1e99c-5358-4a89-9076-16c4c636ee0b/attachments/21f41b38-0e64-4f24-ad24-3f48adadc575/istockphoto-1210007443-612x612.jpg/v1/fit/w_800,h_4000,q_90/istockphoto-1210007443-612x612.jpg" alt="Ganga Aarti Ceremony at Varanasi" class="hero-image">
+            <img src="https://img-wixmp-1dc246a0b7b546f6581a8d48.wixmp.com/projects/d6f1e99c-5358-4a89-9076-16c4c636ee0b/attachments/5f84c92e-baea-4037-9874-ec5a814c7e92/istockphoto-1219094441-612x612.jpg/v1/fit/w_800,h_4000,q_90/istockphoto-1219094441-612x612.jpg" alt="Sarnath Temple, Buddhist Site" class="hero-image">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Explore the Spiritual & Natural Wonders of Bihar & Varanasi</h1>
+            <h2 class="hero-subtitle">Guided, Comfortable, and Disturbance-Free Travel Experiences</h2>
+            <div>
+                <button class="btn btn-lg" onclick="scrollToSection(event, 'booking')">Book Your Journey Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="stats-bg"></div>
+        <!-- Wireframe SVG Background -->
+        <svg class="wireframe-overlay" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#f97316" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#grid)" />
+            <!-- Abstract wireframe curves -->
+            <path d="M0,200 Q300,100 600,200 T1200,200" fill="none" stroke="#f97316" stroke-width="1" opacity="0.3"/>
+            <path d="M0,250 Q300,150 600,250 T1200,250" fill="none" stroke="#f97316" stroke-width="1" opacity="0.2"/>
+            <path d="M0,150 Q300,50 600,150 T1200,150" fill="none" stroke="#f97316" stroke-width="1" opacity="0.2"/>
+        </svg>
+        
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">2500+</div>
+                    <div class="stat-label">Years of History</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">84</div>
+                    <div class="stat-label">Sacred Ghats</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">UNESCO Sites</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15M+</div>
+                    <div class="stat-label">Annual Pilgrims</div>
+                </div>
+            </div>
+            <!-- Center Arrow -->
+            <div class="stats-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Us</h2>
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--sand-11); margin-bottom: var(--space-4);">
+                We are a team of experienced local guides, dedicated to providing a safe, memorable, and culturally rich journey.
+            </p>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--sand-11); margin-bottom: var(--space-6);">
+                Our focus is on comfort, authenticity, and creating an experience that stays with you forever.
+            </p>
+            <div style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--amber-11); font-style: italic; margin: var(--space-6) 0; padding: var(--space-5); background: var(--amber-2); border-radius: var(--radius-4); border-left: 4px solid var(--amber-9);">
+                "We don't just show places; we create memories."
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section section-alt">
+        <h2 class="section-title">Our Packages</h2>
+        <p class="section-subtitle">
+            Choose from our carefully curated travel experiences, each designed to offer comfort, authenticity, and unforgettable moments.
+        </p>
+        <div style="text-align: center; color: var(--amber-11); margin: var(--space-4) auto var(--space-6); padding: var(--space-3) var(--space-4); background: var(--amber-3); border-radius: var(--radius-3); border-left: 4px solid var(--amber-9); max-width: 800px;">
+            <strong>Note:</strong> Teens aged 15+ will be charged as per person rates.
+        </div>
+        
+        <div class="packages-grid">
+            <!-- Package 1 -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3 class="package-name">Basic Spiritual Package</h3>
+                    <div class="package-duration">⏱️ 3 Days / 2 Nights</div>
+                </div>
+                <div class="package-content">
+                    <div class="package-section">
+                        <div class="package-section-title">📍 Destinations</div>
+                        <ul class="package-list">
+                            <li>Varanasi Ghats & Mandirs</li>
+                            <li>Sarnath</li>
+                            <li>Kaimur Region Temples & Telhar Waterfall</li>
+                        </ul>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-highlights">
+                            <span class="package-highlight">Ancient temples</span>
+                            <span class="package-highlight">Sacred ghats</span>
+                            <span class="package-highlight">Natural waterfalls</span>
+                        </div>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-section-title">📸 Optional Activities</div>
+                        <ul class="package-list">
+                            <li>Boat rides</li>
+                            <li>Photography</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="package-footer">
+                    <div>
+                        <div class="package-price">₹30k–₹36k per person</div>
+                        <div class="package-meals">🍽️ Breakfast & Dinner included; Lunch guest pays directly</div>
+                    </div>
+                    <button class="btn" onclick="selectPackage('Basic Spiritual Package')">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Package 2 -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3 class="package-name">Core Nature & Culture Package</h3>
+                    <div class="package-duration">⏱️ 4 Days / 3 Nights</div>
+                </div>
+                <div class="package-content">
+                    <div class="package-section">
+                        <div class="package-section-title">📍 Destinations</div>
+                        <ul class="package-list">
+                            <li>Varanasi Ghats & Markets</li>
+                            <li>Sarnath + Banarasi Saree Demonstration</li>
+                            <li>Kaimur Waterfalls & Temples</li>
+                        </ul>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-highlights">
+                            <span class="package-highlight">Cultural immersion</span>
+                            <span class="package-highlight">Artisan demonstrations</span>
+                            <span class="package-highlight">Scenic nature</span>
+                        </div>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-section-title">📸 Optional Activities</div>
+                        <ul class="package-list">
+                            <li>Boat rides</li>
+                            <li>Village walks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="package-footer">
+                    <div>
+                        <div class="package-price">₹35k–₹38k per person</div>
+                        <div class="package-meals">🍽️ Breakfast & Dinner included; Lunch guest pays directly</div>
+                    </div>
+                    <button class="btn" onclick="selectPackage('Core Nature & Culture Package')">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Package 3 -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3 class="package-name">Slow & Soulful Package</h3>
+                    <div class="package-duration">⏱️ 5 Days / 4 Nights</div>
+                </div>
+                <div class="package-content">
+                    <div class="package-section">
+                        <div class="package-section-title">📍 Destinations</div>
+                        <ul class="package-list">
+                            <li>Varanasi Spiritual Sites & Ghats</li>
+                            <li>Scenic Village / Cultural Walk</li>
+                            <li>Kaimur Nature & Sunset Spots</li>
+                        </ul>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-highlights">
+                            <span class="package-highlight">Unhurried exploration</span>
+                            <span class="package-highlight">Sunset viewpoints</span>
+                            <span class="package-highlight">Village life</span>
+                        </div>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-section-title">📸 Optional Activities</div>
+                        <ul class="package-list">
+                            <li>Boat rides</li>
+                            <li>Photography</li>
+                            <li>Local experiences</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="package-footer">
+                    <div>
+                        <div class="package-price">₹45k–₹50k per person</div>
+                        <div class="package-meals">🍽️ Breakfast & Dinner included; Lunch guest pays directly</div>
+                    </div>
+                    <button class="btn" onclick="selectPackage('Slow & Soulful Package')">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Package 4 -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3 class="package-name">Spiritual Focus Package</h3>
+                    <div class="package-duration">⏱️ 3–4 Days</div>
+                </div>
+                <div class="package-content">
+                    <div class="package-section">
+                        <div class="package-section-title">📍 Destinations</div>
+                        <ul class="package-list">
+                            <li>Varanasi Mandirs & Ghats</li>
+                            <li>Sarnath</li>
+                            <li>Kaimur Region Temples (Maa Mundeshwari, Maa Tarachandi, Maa Tutla Bhawani)</li>
+                        </ul>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-highlights">
+                            <span class="package-highlight">Temple pilgrimage</span>
+                            <span class="package-highlight">Spiritual ceremonies</span>
+                            <span class="package-highlight">Sacred sites</span>
+                        </div>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-section-title">📸 Optional Activities</div>
+                        <ul class="package-list">
+                            <li>Boat rides</li>
+                            <li>Photography</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="package-footer">
+                    <div>
+                        <div class="package-price">₹30k–₹36k per person</div>
+                        <div class="package-meals">🍽️ Breakfast & Dinner included; Lunch guest pays directly</div>
+                    </div>
+                    <button class="btn" onclick="selectPackage('Spiritual Focus Package')">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Package 5 -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3 class="package-name">Custom / Private Experience</h3>
+                    <div class="package-duration">⏱️ Flexible</div>
+                </div>
+                <div class="package-content">
+                    <div class="package-section">
+                        <div class="package-section-title">📍 Destinations</div>
+                        <ul class="package-list">
+                            <li>Tailored to your preferences</li>
+                        </ul>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-highlights">
+                            <span class="package-highlight">Personalized itinerary</span>
+                            <span class="package-highlight">Private guide</span>
+                            <span class="package-highlight">Advance consultation required</span>
+                        </div>
+                    </div>
+                    <div class="package-section">
+                        <div class="package-section-title">📸 Optional Activities</div>
+                        <ul class="package-list">
+                            <li>Based on your interests</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="package-footer">
+                    <div>
+                        <div class="package-price">Varies</div>
+                        <div class="package-meals">🍽️ Customizable</div>
+                    </div>
+                    <button class="btn" onclick="selectPackage('Custom / Private Experience')">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-icon">🧭</div>
+                <h3 class="step-title">Select Your Package</h3>
+                <p class="step-description">Choose the package that fits your interest and travel style</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">👥</div>
+                <h3 class="step-title">Provide Guest Details</h3>
+                <p class="step-description">Adults, Children, Senior Citizens, and Travel Date</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">💳</div>
+                <h3 class="step-title">Pay Advance</h3>
+                <p class="step-description">75% advance secures your booking</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">✨</div>
+                <h3 class="step-title">Enjoy the Journey</h3>
+                <p class="step-description">Guided, safe, and memorable experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Comfort -->
+    <section id="safety" class="section section-alt">
+        <h2 class="section-title">Safety & Comfort</h2>
+        <p class="section-subtitle">Your safety and comfort are our top priorities throughout your journey.</p>
+        <div class="safety-grid">
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>Experienced local guides for every trip</p>
+            </div>
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>Non-intrusive support team for comfort and safety</p>
+            </div>
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>Crowd management at Varanasi Ghats & Mandirs</p>
+            </div>
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>Trekking & adventure spots optional, only in specific packages</p>
+            </div>
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>24/7 emergency support</p>
+            </div>
+            <div class="safety-item">
+                <div class="safety-icon">✓</div>
+                <p>Maximum 3 destinations per package for comfort</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    Who pays for lunch and boat rides?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Guests pay directly for lunch and optional boat rides. Our guides will assist with fair recommendations and ensure you get the best local experience.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    Are waterfalls and trekking spots safe?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Yes, absolutely. We only provide guided access to safe, well-maintained spots. Our experienced local guides ensure your safety at all times.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    How many destinations are included per package?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Maximum 3 main destinations per package to ensure comfort and a disturbance-free experience. We believe in quality over quantity.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    What is included in the package price?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>The package price includes guided travel, team support, breakfast, and dinner. Accommodations, lunch, and optional activities are paid directly by guests.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    How do I book a package?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Select your preferred package, provide guest details (adults, children, senior citizens, travel date), and pay 100% advance to secure your booking.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                    Is there emergency support during the trip?
+                    <span>▼</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Yes, we provide 24/7 emergency support throughout your journey to ensure your safety and comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms & Conditions -->
+    <section id="terms-conditions" class="section section-alt">
+        <h2 class="section-title">📜 GUEST TERMS, LIABILITY & SERVICE POLICY</h2>
+        <p style="text-align: center; margin-top: calc(-1 * var(--space-2)); margin-bottom: var(--space-5); color: var(--sand-10); font-style: italic;">(For Heritage Circuit Experiences / Heritage Circuit India)</p>
+        
+        <div class="terms-section">
+            <h3 class="terms-heading">1️⃣ Nature of Service</h3>
+            <p style="margin-bottom: var(--space-4); color: var(--sand-11);">The Organizer provides:</p>
+            <ul class="terms-list">
+                <li>Curated itinerary planning</li>
+                <li>Ground transport coordination</li>
+                <li>On-trip guidance & cultural interpretation</li>
+                <li>Local restaurant & hotel recommendations</li>
+            </ul>
+            <div class="highlight-box" style="margin-top: var(--space-4);">
+                <p><strong>Important:</strong> The Organizer does not own or operate hotels, restaurants, or third-party establishments unless explicitly mentioned in writing.</p>
+                <p style="margin-top: var(--space-2);">Service fulfillment is considered complete once the agreed itinerary coordination and guidance are delivered.</p>
+            </div>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">2️⃣ Hotel & Restaurant Disclaimer 🏨</h3>
+            <ul class="terms-list">
+                <li>Hotels and restaurants suggested are <strong>recommendations only</strong>.</li>
+                <li>Guests are free to choose any accommodation or dining option.</li>
+                <li>The Organizer does not force any specific hotel or restaurant.</li>
+                <li>In case of dissatisfaction (cleanliness, service, food quality, pricing etc.), the issue must be addressed directly with the respective hotel/restaurant management.</li>
+                <li>The Organizer will assist in coordination to resolve concerns where reasonably possible.</li>
+                <li><strong>Such issues shall not constitute grounds for refund against the Organizer.</strong></li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">3️⃣ Health & Physical Fitness Declaration 🩺</h3>
+            <ul class="terms-list">
+                <li>Some locations may involve walking, trekking, stair climbing, uneven terrain, ghats, or waterfalls.</li>
+                <li>Guests must disclose any medical condition (BP issues, heart condition, mobility limitations, etc.) at the time of booking.</li>
+                <li><strong>Failure to disclose medical conditions releases the Organizer from liability for related incidents.</strong></li>
+                <li>Minor first aid support will be available in vehicle.</li>
+                <li>In case of emergency, nearest hospital assistance will be arranged; medical costs shall be borne by the guest.</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">4️⃣ Transport Compliance 🚐</h3>
+            <ul class="terms-list">
+                <li>All vehicles are commercially registered and insured.</li>
+                <li>Drivers are licensed and experienced.</li>
+                <li>Documents may be shown physically before journey if requested.</li>
+                <li>Digital copies will not be shared due to privacy and security policy.</li>
+                <li>Delays due to traffic, weather, government checks, or road conditions are beyond Organizer control.</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">5️⃣ Guest Conduct Policy 🙏</h3>
+            <p style="margin-bottom: var(--space-3); color: var(--sand-11);">Guests agree to:</p>
+            <ul class="terms-list">
+                <li>Respect local culture and religious sentiments.</li>
+                <li>Maintain decorum in temples, spiritual places, and waterfalls.</li>
+                <li>Avoid rude or disruptive behavior.</li>
+                <li>Safeguard their personal belongings.</li>
+            </ul>
+            <div class="warning-box" style="margin-top: var(--space-4);">
+                <p><strong>Important:</strong> The Organizer shall not be liable for loss, theft, or damage of personal belongings.</p>
+            </div>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">6️⃣ Cancellation & Refund Policy 💰</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-5); margin: var(--space-5) 0;">
+                <div class="highlight-box">
+                    <h4 style="margin-bottom: var(--space-3); font-weight: 600; color: var(--teal-11);">📅 Normal Season</h4>
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--amber-9);">
+                                <th style="padding: var(--space-2); text-align: left;">Cancellation Time</th>
+                                <th style="padding: var(--space-2); text-align: right;">Refund</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid var(--sand-5);">
+                                <td style="padding: var(--space-2);">7+ days before</td>
+                                <td style="padding: var(--space-2); text-align: right; font-weight: 600;">50%</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--sand-5);">
+                                <td style="padding: var(--space-2);">3–6 days before</td>
+                                <td style="padding: var(--space-2); text-align: right; font-weight: 600;">25%</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: var(--space-2);">Less than 72 hrs</td>
+                                <td style="padding: var(--space-2); text-align: right; font-weight: 600; color: var(--tomato-9);">No Refund</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="highlight-box">
+                    <h4 style="margin-bottom: var(--space-3); font-weight: 600; color: var(--teal-11);">🎆 Peak Season</h4>
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--amber-9);">
+                                <th style="padding: var(--space-2); text-align: left;">Cancellation Time</th>
+                                <th style="padding: var(--space-2); text-align: right;">Refund</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid var(--sand-5);">
+                                <td style="padding: var(--space-2);">10+ days</td>
+                                <td style="padding: var(--space-2); text-align: right; font-weight: 600;">25%</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: var(--space-2);">Less than 7 days</td>
+                                <td style="padding: var(--space-2); text-align: right; font-weight: 600; color: var(--tomato-9);">No Refund</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <ul class="terms-list">
+                <li>Refund processing time: 3–5 working days.</li>
+                <li>Advance payments secure booking slots and vendor allocations.</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">7️⃣ Force Majeure Clause 🌧</h3>
+            <p style="margin-bottom: var(--space-3); color: var(--sand-11);">No refund or liability shall arise in case of:</p>
+            <ul class="terms-list">
+                <li>Natural disasters</li>
+                <li>Government restrictions</li>
+                <li>Political unrest</li>
+                <li>Pandemic restrictions</li>
+                <li>Road closures</li>
+                <li>Sudden temple closures</li>
+            </ul>
+            <div class="highlight-box" style="margin-top: var(--space-4);">
+                <p><strong>Note:</strong> Alternate itinerary adjustments may be offered where feasible.</p>
+            </div>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">8️⃣ Reputation Protection & False Allegation Clause ⚖️</h3>
+            <p style="margin-bottom: var(--space-3); color: var(--sand-11);">Service quality is delivered through:</p>
+            <ul class="terms-list">
+                <li>Optimal timing selection</li>
+                <li>Cultural site planning</li>
+                <li>Non-commission-based recommendations</li>
+                <li>Active itinerary coordination</li>
+            </ul>
+            <div class="warning-box" style="margin-top: var(--space-4);">
+                <p style="margin-bottom: var(--space-3);"><strong>Important Policy:</strong></p>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: var(--space-2);">• Refund claims after completion of agreed itinerary shall not be applicable.</li>
+                    <li style="margin-bottom: var(--space-2);">• Unverified public allegations, harassment attempts, or reputational harm claims made after service completion without prior on-trip complaint resolution will not constitute valid grounds for refund.</li>
+                    <li>• All disputes shall be resolved mutually before any public escalation.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="terms-section">
+            <h3 class="terms-heading">9️⃣ Financial Liability Limitation</h3>
+            <div class="warning-box">
+                <p><strong>Organizer liability, if any, shall be limited strictly to the amount paid for the service coordination and shall not extend to indirect, consequential, or third-party damages.</strong></p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-7); padding: var(--space-5); background: var(--teal-2); border-radius: var(--radius-4); border: 2px solid var(--teal-7);">
+            <p style="font-size: 1.125rem; font-weight: 600; color: var(--teal-11); margin-bottom: var(--space-2);">By booking our services, you acknowledge that you have read, understood, and agree to all terms mentioned above.</p>
+            <p style="color: var(--sand-11);">For any clarifications, please contact us before confirming your booking.</p>
+        </div>
+    </section>
+
+    <!-- Contact & Booking -->
+    <section id="booking" class="section">
+        <h2 class="section-title">Contact & Booking</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    📧 <a href="mailto:Hinata1.japan@gmail.com">Hinata1.japan@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    📞 <a href="tel:+916201407937">+91 62014 07937</a>
+                </div>
+            </div>
+
+            <div id="booking-form-container">
+                <form class="form" method="POST" action="https://formspree.io/f/mlgwljqd" id="bookingForm">
+                    <div style="background: var(--amber-3); color: var(--amber-11); padding: var(--space-4); border-radius: var(--radius-3); border-left: 4px solid var(--amber-9);">
+                        <strong>Booking Instructions:</strong> Please provide your details below. We will confirm availability and next steps within 60 minutes.
+                    </div>
+
+                    <div class="form-group">
+                        <label for="package">Selected Package</label>
+                        <input type="text" id="package" name="package" placeholder="Package name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Travel Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="adults">Number of Adults</label>
+                            <input type="number" id="adults" name="adults" min="1" value="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <input type="number" id="children" name="children" min="0" value="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="seniors">Senior Citizens</label>
+                            <input type="number" id="seniors" name="seniors" min="0" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Mobile / WhatsApp</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Special Requests (Optional)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Any special requirements or questions?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-lg" style="width: 100%; margin-top: var(--space-3);">Submit Booking Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Bihar & Varanasi Tours. All rights reserved.</p>
+        <p>Creating memories through authentic spiritual and natural experiences.</p>
+    </footer>
+
+    <script>
+        // Theme Toggle Functionality
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Check for saved theme preference on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                // If no saved preference, check system preference
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Hero image carousel
+        let currentImageIndex = 0;
+        const heroImages = document.querySelectorAll('.hero-image');
+        setInterval(() => {
+            heroImages[currentImageIndex].classList.remove('active');
+            currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+            heroImages[currentImageIndex].classList.add('active');
+        }, 5000);
+
+        // Smooth scroll
+        function scrollToSection(event, sectionId) {
+            event.preventDefault();
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Accordion toggle
+        function toggleAccordion(button) {
+            const item = button.parentElement;
+            const wasActive = item.classList.contains('active');
+            
+            // Close all accordion items
+            document.querySelectorAll('.accordion-item').forEach(i => {
+                i.classList.remove('active');
+            });
+            
+            // Open clicked item if it wasn't active
+            if (!wasActive) {
+                item.classList.add('active');
+            }
+        }
+
+        // Select package
+        function selectPackage(packageName) {
+            document.getElementById('package').value = packageName;
+            scrollToSection(event, 'booking');
+        }
+
+        // Log Formspree configuration on page load
+        console.log('Formspree form initialized with action:', document.getElementById('bookingForm').action);
+
+        // Form submission with enhanced error handling
+        document.getElementById('bookingForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const formData = new FormData(form);
+            const submitButton = form.querySelector('button[type="submit"]');
+            
+            // Disable button and show loading state
+            submitButton.disabled = true;
+            submitButton.textContent = 'Sending...';
+            
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    // Success - show confirmation message
+                    document.getElementById('booking-form-container').innerHTML = `
+                        <div class="success-message">
+                            <h3>✅ Booking Request Submitted Successfully!</h3>
+                            <p>Thank you for choosing Bihar & Varanasi Tours!</p>
+                            <p><strong>We will contact you within 60 minutes</strong> to confirm availability and discuss the next steps.</p>
+                            <p style="margin-top: var(--space-3); font-size: 0.95rem; opacity: 0.9;">📧 You will receive a confirmation email shortly.</p>
+                        </div>
+                    `;
+                } else {
+                    // Get error details from response
+                    const data = await response.json().catch(() => ({}));
+                    const errorMessage = data.error || data.errors?.map(e => e.message).join(', ') || 'Unknown error occurred';
+                    
+                    alert('Submission failed: ' + errorMessage + '\n\nPlease try again or contact us directly at Hinata1.japan@gmail.com');
+                    submitButton.disabled = false;
+                    submitButton.textContent = 'Submit Booking Request';
+                }
+            } catch (error) {
+                console.error('Form submission error:', error);
+                alert('Network error. Please check your internet connection and try again.\n\nAlternatively, you can email us directly at Hinata1.japan@gmail.com');
+                submitButton.disabled = false;
+                submitButton.textContent = 'Submit Booking Request';
+            }
+        });
+    </script>
+</body>
+</html>
+
